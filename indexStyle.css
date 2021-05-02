@@ -7,6 +7,23 @@ header {
     color: white;
 }
 
+header #imgAndTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+header #imgAndTitle img {
+    max-width: 200px; /* may need to change this */
+    border-radius: 50%;
+}
+
+header #imgAndTitle h1 {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
 header nav {
     background-color: black;
     height: 50px;
