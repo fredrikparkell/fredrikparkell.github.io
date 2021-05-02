@@ -12,10 +12,11 @@ header #imgAndTitle {
     justify-content: center;
     align-items: center;
     padding: 30px 30px;
+    gap: 1.5rem;
 }
 
 header #imgAndTitle img {
-    max-width: 200px; /* may need to change this */
+    max-width: 200px;
     border-radius: 50%;
 }
 
@@ -51,4 +52,64 @@ header nav a {
 header nav a:hover {
     flex: 1.5;
     background: #999;
+}
+
+main {
+    /* may need to change this */
+    max-width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main #mainVideo {
+    /* may need to change this */
+    /*position: fixed;
+    right: 0;
+    bottom: 0;*/
+    width: 100%; 
+    height: 100%;
+    position: relative; /* absolute and fixed puts it over everything while relative contains it in the main-container */
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+
+    display: flex;
+}
+
+main .knowledgeSection {
+    /* may need to change this */
+    position: absolute;
+    top: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    flex-direction: column;
+}
+
+.knowledgeSection h1 {
+    font-size:6rem;
+}
+
+.skillsStuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    gap: 3.5rem;
+}
+
+#footer {
+    position: relative;
 }
