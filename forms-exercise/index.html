@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Forms1 exercise</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="signup.js"></script>
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Forms1 exercise</h1>
+        </header>
+            <main class="formMain">
+                <form name="signupform" action="initial_page.html" onsubmit="return validateForm()">
+
+                    <label for="firstName">First Name: </label><br>
+                    <input type="text" id="firstName" name="fname" placeholder="First Name here.."><br>
+                    <label for="lastName">Last Name: </label><br>
+                    <input type="text" id="lastName" name="lname" placeholder="Last Name here.."><br>
+                    <label for="emailAddress">Email: </label><br>
+                    <input type="text" id="emailAddress" name="emailA" placeholder="Email here.."><br>
+                    <label for="dateOfBirth">Date of birth: </label><br>
+                    <input type="date" id="dateOfBirth" name="dateO"><br>
+            
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label><br>
+            
+                    <input type="submit" value="submit">
+                </form>
+            </main>
+    </section>
+</body>
+</html>

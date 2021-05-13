@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('ivars-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header {
+    padding-bottom: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body section {
+    margin-top: 13rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 370px;
+    background-color: white;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+body .formMain {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body .formMain label {
+    padding-bottom: 1rem;
+}
