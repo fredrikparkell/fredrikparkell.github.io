@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-image: linear-gradient(to right bottom, #090909, #0f0f0f, #131314, #171718, #1a1b1c, #1e1f20, #222324, #262728, #2c2d2e, #323333, #383939, #3e3f3f);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -32,7 +32,7 @@ header #imgAndTitle h1 {
 }
 
 header nav {
-    background-color: black;
+    background-image: linear-gradient(to right bottom, #090909, #0f0f0f, #131314, #171718, #1a1b1c, #1e1f20, #222324, #262728, #2c2d2e, #323333, #383939, #3e3f3f);
     height: 50px;
     display: flex;
     justify-content: center;
