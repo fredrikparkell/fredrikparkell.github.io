@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('/img/andAek.png');
+    font-family: 'Raleway', sans-serif;
+}
+
+.headerKindOf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#playersPresenter {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.saveBtn {
+    height: 50px;
+    width: 230px;
+    background-color:green;
+    color:white;
+    font-weight: bold;
+    font-size:large;
+    border-radius: 10px;
+}
+
+.clearBtn {
+    height: 50px;
+    width: 160px;
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    font-size:large;
+    border-radius: 10px;
+}
+
+.genBtn {
+    height: 50px;
+    width: 400px;
+    background-color: purple;
+    color:white;
+    font-weight: bold;
+    font-size:xx-large;
+    border-radius: 10px;
+}
+
+tr {
+    display: -ms-inline-grid;
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    display: -ms-inline-grid;
+    justify-content: center;
+    align-items: center;
+}

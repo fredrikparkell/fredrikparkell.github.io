@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/crp.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
+    
+    <title>Create Random Player</title>
+</head>
+<body>
+    <br>
+    <div id="headerKindOf">
+        <button class="saveBtn">SAVE TO CSV FILE</button>
+        <button class="clearBtn">CLEAR</button>
+    </div>
+    <br>
+
+    <div id="playersPresenter">
+        <table class="table table-hover">
+            <thead id="columnNames" class="thead-dark">
+                <tr>
+                    <th>
+                        Country
+                    </th>
+                    <th>
+                        Potential
+                    </th>
+                    <th>
+                        Position(s)
+                    </th>
+                </tr>
+            </thead>
+        
+            <tbody id="playerContainer">
+                
+            </tbody>
+        </table>
+    </div>
+
+    <br>
+    <button class="genBtn">GENERATE PLAYER</button>
+    <br>
+
+    <script src="crp.js"></script>
+</body>
+</html>
