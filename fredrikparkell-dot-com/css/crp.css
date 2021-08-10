@@ -15,7 +15,7 @@ body {
 }
 
 #playersPresenter {
-    width: 400px;
+    width: 700px;
     height: 500px;
     background-color: white;
     overflow: auto;
@@ -53,13 +53,13 @@ body {
 }
 
 tr {
-    display: -ms-inline-grid;
     justify-content: center;
     align-items: center;
+    text-align: flex-start;
 }
 
 td {
     display: -ms-inline-grid;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
